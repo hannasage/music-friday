@@ -9,7 +9,7 @@
 
 <template>
   <div id="app-grid">
-    <IntroBox/>
+    <IntroBox />
   </div>
 </template>
 
