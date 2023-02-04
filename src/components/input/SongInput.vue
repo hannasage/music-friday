@@ -1,8 +1,8 @@
 <template>
-    <div id="url-entry-field">
-        <input placeholder="https://youtube.com/..."/>
-        <button>Submit</button>
-    </div>
+  <div id="url-entry-field">
+    <input placeholder="https://youtube.com/...">
+    <button>Submit</button>
+  </div>
 </template>
   
 <styles lang="css">
