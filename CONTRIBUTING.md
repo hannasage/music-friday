@@ -37,7 +37,7 @@ When contributing to this project, it is implied that your contribution may be p
 <!-- omit in toc -->
 #### Before Submitting a Bug Report
 
-A good bug report is easily replicable so engineers can assess and solve the issue at hand. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete as many of the Bug Issue template as you can to aid us in fixing the bug as fast as possible.
+A good bug report is easily replicable so engineers can assess and solve the issue at hand. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete as much of the Bug Issue template as you can to aid us in fixing the bug as fast as possible.
 
 > You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to not-an-email@test.com.
 
