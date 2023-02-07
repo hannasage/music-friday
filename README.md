@@ -10,7 +10,7 @@ Music Friday is a platform for sharing music among friends. In its purest form, 
 
 > **NOTE:** As of the last update (2/6/23) this application is unfinished and cannot yet be self-hosted.
 
-3. **Can I contribute to Music Friday?**  Of course! The joy of open-source repositories is that everyone can participate in some way. If you're not versed in any skills that contribute directly, you can even join in via the [Discussions tab on GitHub](https://github.com/kevinhaube/music-friday/discussions). If you _are_ versed in said skills, check out the Contribution Guidelines, and the selection of [Good First Issues](https://github.com/kevinhaube/music-friday/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+3. **Can I contribute to Music Friday?**  Of course! The joy of open-source repositories is that everyone can participate in some way. If you're not versed in any skills that contribute directly, you can even join in via the [Discussions tab on GitHub](https://github.com/kevinhaube/music-friday/discussions). If you _are_ versed in said skills, check out the [Contribution Guidelines](https://github.com/kevinhaube/music-friday/blob/main/CONTRIBUTING.md), and the selection of [Good First Issues](https://github.com/kevinhaube/music-friday/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 > **NOTE:** As of the last update (2/6/23) the Contribution Guidelines are forthcoming.
 
