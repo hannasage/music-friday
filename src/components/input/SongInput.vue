@@ -1,9 +1,46 @@
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent, ref } from "vue";
+import { linkStore } from "../../stores/linkStore";
+
+function linkIsValid(link: string): boolean {
+  return (
+    link.startsWith("https://") &&
+    (link.includes("youtube") || link.includes("youtu.be"))
+  );
+}
+
+function resetLinkInput(): void {
+  //TODO: Fix this "'this' implicitly has type 'any' because it does not have a type annotation"
+  this.songLink = "";
+}
+
+function addLink(link: string): void {
+  console.log(`submitted: ${link}`);
+  linkIsValid(link)
+    ? linkStore.links.push(link)
+    : console.log("Not a valid YouTube link");
+}
+
+export default defineComponent({
+  data() {
+    return {
+      songLink: "",
+    };
+  },
+  methods: {
+    addLink,
+  },
+});
+</script>
 
 <template>
   <div id="url-entry-field">
-    <input placeholder="https://youtube.com/..." />
-    <button>Submit</button>
+    <input
+      type="text"
+      v-model="songLink"
+      placeholder="https://youtube.com/..."
+    />
+    <button v-on:click="addLink(songLink)">Submit</button>
   </div>
 </template>
 
